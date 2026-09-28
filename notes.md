@@ -11,4 +11,12 @@ Random values assigned
 For making the total we use 
 =SUM{--,--,--}
 ALSO , {Alt + =}
- 
+ command + shift + T 
+
+
+Formula for 
+Average-- =Average{--}
+Maximum-- =Maximum{--}
+Minimun-- =Min{--} 
+
+This are the aggregates functions avg,max,min 
