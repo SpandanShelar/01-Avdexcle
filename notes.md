@@ -55,3 +55,32 @@ IFS
 The IFS Function in Excel checks multiple conditions in order and returns a value for the first condition that evaluates to TRUE.
 • =IFS(logical_test1, value_if_true1, [logical_test2, value_if_true2], ...)
 • You can test up to 127 different conditions in a single formula.
+
+
+.....................
+DAY 3 
+.....................
+CONSDITIONAL FORMATING 
+a tool that automatically changes the appearance of a cell or a range of cells—such as color, font, or fill—based on the specific values or conditions you set
+
+Core Types of Rules
+• Highlight Rules: Changes formatting if a cell is greater than, less than, or equal to a specific number, or if it contains a certain text or date string.
+• Top/Bottom Rules: Targets statistical limits, such as the top 10% of values or cells performing below the group average.
+• Visual Gauges: Applies a gradient of colors or visual meters directly inside the cells to show relative scale:
+
+SORTING 
+an Excel feature that rearranges your data into a specific order—such as alphabetical, numerical, or chronological—to help you organize and make sense of your spreadsheets.
+
+Core Types of Sorting
+• Alphabetical (Text): Arranges words from A to Z or Z to A.
+• Numerical (Numbers): Sorts values from Smallest to Largest (ascending) or Largest to Smallest (descending).
+• Chronological (Dates & Times): Arranges events from Oldest to Newest or Newest to Oldest.
+• Custom Lists: Sorts by non-standard sequences like days of the week (Monday, Tuesday...) or t-shirt sizes (S, M, L, XL).
+• Visual Sorting: Groups cells together by their cell fill color, font color, or conditional formatting icons.
+
+Formula 
+=SORT(array, [sort_index], [sort_order], [by_col])
+• array (Required): The group of cells or the entire dataset you want to sort. (Tip: Do not include your headers in this range, or they will be sorted along with the data rows).
+• [sort_index] (Optional): The column number you want to sort by, counting from the left side of your array. Defaults to 1 (the first column).
+• [sort_order] (Optional): Use 1 for Ascending (A to Z, smallest to largest) or -1 for Descending (Z to A, largest to smallest). Defaults to 1.
+• [by_col] (Optional): Use FALSE to sort by rows (downwards) or TRUE to sort by columns (sideways). Defaults to FALSE
