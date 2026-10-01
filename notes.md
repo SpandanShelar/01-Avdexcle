@@ -79,7 +79,7 @@ Core Types of Sorting
 • Visual Sorting: Groups cells together by their cell fill color, font color, or conditional formatting icons.
 
 Formula 
-=SORT(array, [sort_index], [sort_order], [by_col])
+=SORT(array, [sort_index]write columb number , [sort_order]asc or dsc, [by_col])
 • array (Required): The group of cells or the entire dataset you want to sort. (Tip: Do not include your headers in this range, or they will be sorted along with the data rows).
 • [sort_index] (Optional): The column number you want to sort by, counting from the left side of your array. Defaults to 1 (the first column).
 • [sort_order] (Optional): Use 1 for Ascending (A to Z, smallest to largest) or -1 for Descending (Z to A, largest to smallest). Defaults to 1.
